@@ -211,4 +211,25 @@ sum2=int(input("Enter the second number: "))
 sqr= lambda num,num1:num**num1
 print(sqr(sum1,sum2))
 
+sumLst=[1,2,3,4,5,6,7,8,9,10]
+tot=0
+for ele in sumLst:
+  tot+=ele
+print(tot)
+print("========================================================")
+
+from functools import reduce
+def add(num1,num2):
+  return num1+num2
+sum=reduce(add,sumLst)
+print(sum)
+print("========================================================")
+sUm=lambda a,b:a+b
+suM=reduce(sUm,sumLst)
+print(suM)
+
+print("========================================================")
+SuM=reduce(lambda c,d:c+d,sumLst)
+print(SuM)
+
 #PLEASE OPEN YOUR OWN FOLDER

@@ -45,3 +45,53 @@ print(arr4[1,1])
 print(arr4[0,4])
 print(arr4[1:4,2:4])
 print(arr4[:3,:3])
+
+
+
+import numpy as np
+'''
+arr=np.array([1,2,3,4,5])
+arr1=np.array([6,7,8,9,10]) 
+print(arr)
+print(arr1)
+print(arr+arr1)
+print(arr/arr1)
+print(arr*arr1)
+print(arr//arr1)
+
+arr2=np.array([[12,32,43,23],[21,34,2,56]])
+print(arr2.T)
+print(arr2.ndim)
+print(arr2.shape)
+arr3=([[36,7,32,1],[2,4,1,3]])
+print(arr3)
+print(arr2+arr3)
+#print(arr2*arr3)
+arr6=np.zeros((3,5))
+arr7=arr6*10
+print(arr7)
+
+arr8=np.ones((4,5))
+arr9=arr8*10
+print(arr8)
+
+arr10=np.empty((5,6))
+print(arr10)
+
+arr11=np.array([
+    [[1,2,3,4,5],
+     [6,7,8,9,10]],
+     
+     [[11,1,3,4,6],
+     [12,4,6,8,10]],
+      
+     [[13,9,23,4,5],
+     [56,43,32,4,6]]
+    ])
+print(arr11)
+print(arr11[1,0,3])
+print(arr11[1:3,0:2])
+print(arr11[1,1,1:]) '''
+      
+
+
